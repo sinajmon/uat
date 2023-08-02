@@ -4,4 +4,4 @@ pipeline:
   stages:
     - stage: Stage
       steps:
-        - echo "test-output-${env.BRANCH_NAME}"
+        - echo "test-output"
