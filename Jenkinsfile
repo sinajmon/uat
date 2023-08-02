@@ -1,7 +1,10 @@
 pipeline:
   agent:
-    any:
+    none:
   stages:
-    - stage: Stage
+    - stage: "Stage1"
       steps:
-        - echo "test-output"
+        - echo "test 1"
+    - stage: "Stage2"
+      steps:
+        - echo "test 2"
