@@ -1,7 +1,16 @@
-pipeline:
-  agent: any
-    stages:
-    - stage: "Stage1"
-      steps:
-        - echo "test 1"
- 
+pipeline {
+    agent any
+    stages {
+        stage('Develop Stage One') {
+            steps {
+                echo 'Hello From Stage One'
+            }
+        }
+
+        stage('Develop Stage Two') {
+            steps {
+                echo 'Hello From Stage Two'
+            }
+        }
+    }
+}
