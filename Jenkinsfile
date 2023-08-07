@@ -7,3 +7,6 @@ pipeline:
     - stage: "Stage2"
       steps:
         - echo "test 2"
+    - stage: "Stage3"
+      steps:
+        - echo "test 3"
